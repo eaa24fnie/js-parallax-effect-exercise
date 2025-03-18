@@ -17,14 +17,14 @@ window.addEventListener("scroll", () => {
     let value = window.scrollY;
     text.style.marginTop = `${value*2.5}px`;
     // tree4.style.transform = `rotate(${value * 0.1}deg)`;
-    tree.style.transform = `scale(${1 + value * 0.001})`;
-    hill1.style.top = `${value*-0.4}px`;
-    hill4.style.top = `${value*-0.7}px`;
-    hill5.style.top = `${value*-0.8}px`;
+    tree.style.transform = `scale(${1})`;
     leaf.style.top = `${value*-1}px`;
-    hill2.style.top = `${value*-0.5}px`;
-    hill3.style.top = `${value*-0.7}px`;
-    plant.style.top = `${value*-1.2}px`;
+    plant.style.top = `${value*-1}px`;
+    hill5.style.top = `${value*-0.8}px`;
+    hill4.style.top = `${value*-0.6}px`;
+    hill3.style.top = `${value*-0.4}px`;
+    hill2.style.top = `${value*-0.2}px`;
+    hill1.style.top = `${value*-0}px`;
     content.style.top = `${value*-1.2}px`;
 })
 
